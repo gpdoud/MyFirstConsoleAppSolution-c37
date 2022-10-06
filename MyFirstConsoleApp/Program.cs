@@ -30,11 +30,13 @@ math.Description = "Mathematics";
 math.MinSAT = 1200;
 math.Print();
 */
-MAX.Major bus = new MAX.Major();
+
+var bus = new MAX.Major();
 bus.Code = "BUS";
 bus.Description = "Business";
 bus.MinSAT = 400;
 bus.Print();
+bus = null;
 /*
 var str = @"tim\tom"; // "tim\\tom"
 */
@@ -59,3 +61,20 @@ Hexidecimal: x123
     256 + 32 + 3
 
 */
+
+decimal variable = 0.0m;
+variable = 25m / 10;
+Console.WriteLine(variable);
+
+MAX.Major? education = new();
+
+class Person {
+    public string Name;
+    public DateTime Birthdate;
+}
+
+Person kim = new();
+kim.Name = "Kim";
+kim.Birthdate = new(2022, 08, 26);
+
+

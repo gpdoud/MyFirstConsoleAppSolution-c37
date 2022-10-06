@@ -13,10 +13,10 @@ namespace MAX {
 
         public void Print() {
             string message = $"{Code}\t{Description}\t{MinSAT}";
-            System.Console.WriteLine(message);
+            Console.WriteLine(message);
         }
         public void Test() {
-            var message = "";
+            message = "";
         }
     }
 }
